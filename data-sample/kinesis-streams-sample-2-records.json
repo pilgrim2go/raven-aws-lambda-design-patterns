@@ -1,0 +1,34 @@
+{
+  "Records": [
+    {
+      "kinesis": {
+        "partitionKey": "partitionKey-3",
+        "kinesisSchemaVersion": "1.0",
+        "data": "ew0KICAgICJldmVudCI6ICJwYWdlIHZpZXciLA0KICAgICJpcF9hZGRyZXNzIjogIjAuMS4wLjAiLA0KICAgICJ1bml4X3RpbWVzdGFtcCI6ICIxNDMxNTAxMTE3IiwNCiAgICAidXJsIjogImh0dHA6Ly93d3cuanVzdGdpdmluZy5jb20iLA0KICAgICJ1c2VyX2FnZW50IjogImZhY2Vib29rZXh0ZXJuYWxoaXQvMS4xICgraHR0cDovL3d3dy5mYWNlYm9vay5jb20vZXh0ZXJuYWxoaXRfdWF0ZXh0LnBocCkiLA0KICAgICJ1dGNfdGltZXN0YW1wIjogIjIwMTYtMDUtMjJUMDc6MTE6NTYuNTIxMTM2OVoiDQp9",
+        "sequenceNumber": "49545115243490985018280067714973144582180062593244200961"
+      },
+      "eventSource": "aws:kinesis",
+      "eventID": "shardId-000000000000:49545115243490985018280067714973144582180062593244200961",
+      "invokeIdentityArn": "arn:aws:iam::EXAMPLE",
+      "eventVersion": "1.0",
+      "eventName": "aws:kinesis:record",
+      "eventSourceARN": "arn:aws:kinesis:EXAMPLE",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "kinesis": {
+        "partitionKey": "partitionKey-1",
+        "kinesisSchemaVersion": "1.0",
+        "data": "ew0KICAgICJldmVudCI6ICJwYWdlIHZpZXciLA0KICAgICJpcF9hZGRyZXNzIjogIjAuMS4wLjAiLA0KICAgICJ1bml4X3RpbWVzdGFtcCI6ICIxNDMxNTAxMTE3IiwNCiAgICAidXJsIjogImh0dHA6Ly93d3cuanVzdGdpdmluZy5jb20iLA0KICAgICJ1c2VyX2FnZW50IjogImZhY2Vib29rZXh0ZXJuYWxoaXQvMS4xICgraHR0cDovL3d3dy5mYWNlYm9vay5jb20vZXh0ZXJuYWxoaXRfdWF0ZXh0LnBocCkiLA0KICAgICJ1dGNfdGltZXN0YW1wIjogIjIwMTYtMDUtMjNUMDc6MTE6NTYuNTIxMTM2OVoiDQp9==",
+        "sequenceNumber": "49545115243490985018280067714973144582180062593244200961"
+      },
+      "eventSource": "aws:kinesis",
+      "eventID": "shardId-000000000001:49545115243490985018280067714973144582180062593244200962",
+      "invokeIdentityArn": "arn:aws:iam::EXAMPLE",
+      "eventVersion": "1.0",
+      "eventName": "aws:kinesis:record",
+      "eventSourceARN": "arn:aws:kinesis:EXAMPLE",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

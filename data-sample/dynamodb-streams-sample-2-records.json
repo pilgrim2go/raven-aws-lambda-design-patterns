@@ -1,0 +1,86 @@
+{
+	"Records": [{
+		"eventID": "c48e7e3ad6648e0d13400f7b0cef43ff",
+		"eventVersion": "1.0",
+		"dynamodb": {
+			"Keys": {
+				"guidShardIdHash": {
+					"S": "27_shardId-000000000005"
+				},
+				"sequenceNumber": {
+					"S": "49551255148283068725422226385045203869934852110228127826"
+				}
+			},
+			"NewImage": {
+				"event": {
+					"S": "page view"
+				},
+				"page_type": {
+					"S": "profile"
+				},
+				"email": {
+					"S": "myemail@justgiving.com"
+				},
+				"referer": {
+					"S": "/"
+				},
+				"url": {
+					"S": "http://www.justgiving.com/justgiving"
+				},
+				"utc_timestamp": {
+					"S": "2016-05-20T09:42:53.2204553Z"
+				},
+				"user_agent": {
+					"S": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.64 Safari/537.36"
+				}
+			},
+			"StreamViewType": "NEW_AND_OLD_IMAGES",
+			"SequenceNumber": "556258000000000000591534586",
+			"SizeBytes": 864
+		},
+		"awsRegion": "eu-west-1",
+		"eventName": "INSERT",
+		"eventSourceARN": "arn:aws:dynamodb:eu-west-1:000000000000:table/poc-raven-lambda-webanalytics/stream/2015-10-13T17:03:34.741",
+		"eventSource": "aws:dynamodb"
+	}, {
+		"eventID": "4090b295ba064191a55b2a16aa3af1af",
+		"eventVersion": "1.0",
+		"dynamodb": {
+			"Keys": {
+				"guidShardIdHash": {
+					"S": "e8_shardId-000000000003"
+				},
+				"sequenceNumber": {
+					"S": "49551255066885348750785451918441041100587965865552511026"
+				}
+			},
+			"NewImage": {
+				"user_agent": {
+					"S": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"
+				},
+				"url": {
+					"S": "http://www.justgive.com"
+				},
+				"utc_timestamp": {
+					"S": "2016-05-21T09:47:24.2474552Z"
+				},
+				"event": {
+					"S": "page view"
+				},
+				"email": {
+					"S": "myemail@jmail.com"
+				},
+				"page_type": {
+					"S": "logged in home"
+				}
+			},
+			"StreamViewType": "NEW_AND_OLD_IMAGES",
+			"SequenceNumber": "556258100000000000591538115",
+			"SizeBytes": 825
+		},
+		"awsRegion": "eu-west-1",
+		"eventName": "INSERT",
+		"eventSourceARN": "arn:aws:dynamodb:eu-west-1:000000000000:table/poc-raven-lambda-webanalytics/stream/2015-10-13T17:03:34.741",
+		"eventSource": "aws:dynamodb"
+	}]
+}
